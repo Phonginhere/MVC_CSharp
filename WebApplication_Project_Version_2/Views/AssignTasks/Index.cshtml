@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebApplication_Project_Version_2.Models.AssignTask>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm("Index", "AssignTasks", FormMethod.Get))
+{
+    @Html.DropDownList("dropdownDepartment", (IEnumerable<SelectListItem>)ViewBag.listdep, "Select");
+    @Html.DropDownList("dropdownCompany", (IEnumerable<SelectListItem>)ViewBag.listcom, "Select");
+    @Html.TextBox("textname");
+    <input type="submit" name="submit" value="submit" />
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Client.ClientName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Employee.EmployeeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Project.ProjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Task)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Note)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Client.ClientName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Employee.EmployeeName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Project.ProjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Task)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Note)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AssignTaskId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AssignTaskId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AssignTaskId })
+        </td>
+    </tr>
+}
+
+</table>

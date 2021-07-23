@@ -1,0 +1,62 @@
+﻿@model IEnumerable<WebApplication_Project_Version_2.Models.Client>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Index", "Clients", FormMethod.Get))
+{
+    @Html.TextBox("textname");
+    <input type="submit" name="submit" value="submit" />
+}
+@if (Model.Count() == 0)
+{
+    <script type="text/javascript">
+        alert("Khong co du lieu")
+    </script>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientCompany)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientEmail)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientCompany)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientEmail)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ClientId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ClientId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ClientId })
+        </td>
+    </tr>
+}
+
+</table>
