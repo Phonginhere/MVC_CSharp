@@ -1,0 +1,100 @@
+﻿@model IEnumerable<WebApplication_PopUp.Models.Employee>
+
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+	@Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.Employee_Name)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Employee_Comment)
+		</th>
+		<th></th>
+	</tr>
+
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.Employee_Name)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Employee_Comment)
+			</td>
+			<td>
+				@*@Html.ActionLink("Edit", "Edit", new { id = item.Employee_Id }) |
+					@Html.ActionLink("Details", "Details", new { id = item.Employee_Id }) |
+					@Html.ActionLink("Delete", "Delete", new { id = item.Employee_Id })*@
+				<a href="javascript:void(0);" class="anchorDetail" data-id="@item.Employee_Id">Details</a>
+			</td>
+		</tr>
+	}
+
+</table>
+
+<div id='myModal' class='modal'>
+	<div class="modal-dialog" >
+		<div class="modal-content" >
+			<div id='myModalContent'></div>
+		</div>
+	</div>
+
+</div>
+
+@section scripts
+{
+	<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+	<script src="~/Scripts/bootstrap.js"></script>
+	<script src="~/Scripts/bootstrap.min.js"></script>
+	<script>
+
+		var TeamDetailPostBackURL = '/Employees/Details';
+		$(function () {
+			$(".anchorDetail").click(function () {
+				debugger;
+				var $buttonClicked = $(this);
+				var id = $buttonClicked.attr('data-id');
+				var options = { "backdrop": "static", keyboard: true };
+				$.ajax({
+					type: "GET",
+					url: TeamDetailPostBackURL,
+					contentType: "application/json; charset=utf-8",
+					data: { "Id": id },
+					datatype: "json",
+					success: function (data) {
+						debugger;
+						$('#myModalContent').html(data);
+						$('#myModal').modal(options);
+						$('#myModal').modal('show');
+
+					},
+					error: function () {
+						alert("Dynamic content load failed.");
+					}
+				});
+			});
+			//$("#closebtn").on('click',function(){
+			//    $('#myModal').modal('hide');
+
+			$("#closbtn").click(function () {
+				$('#myModal').modal('hide');
+			});
+		});
+
+		//$(".modelContent").on('click', function () {
+		//	$('#myModal').modal('hide');
+		//});
+
+
+	</script>
+
+}  

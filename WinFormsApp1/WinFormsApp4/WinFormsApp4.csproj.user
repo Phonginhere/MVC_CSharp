@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="findSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDichVuKhamBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormVeString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiaiPTTrungPhuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StripMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

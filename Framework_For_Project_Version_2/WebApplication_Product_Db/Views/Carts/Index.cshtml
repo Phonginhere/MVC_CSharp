@@ -1,0 +1,85 @@
+﻿@model IEnumerable<WebApplication_Product_Db.Models.Product_Models.Cart>
+
+@{
+	ViewBag.Title = "Index";
+}
+
+@if (ViewBag.outofstock != null)
+{
+	<div class="alert alert-danger alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thất bại!</strong> @ViewBag.outofstock
+	</div>
+
+}
+
+<h2>Index</h2>
+
+<p>
+	@Html.ActionLink("List Sản Phẩm", "View_Customer", "Products")
+</p>
+@if (Model.Count() > 0)
+{
+	<p>
+		@Html.ActionLink("Mua Hàng", "Create", "Orders")
+	</p>
+}
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.Product.ProductName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.CartName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.CartQuantity)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.CartPrice)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.CartCmt)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.Product.ProductName)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.CartName)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.CartQuantity)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.CartPrice)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.CartCmt)
+			</td>
+			<td>
+				@Html.ActionLink("Details", "Details", new { id = item.CartId }) |
+				@Html.ActionLink("Add", "Add", new { id = item.CartId }) |
+				@Html.ActionLink("Minus", "Minus", new { id = item.CartId }) |
+				@Html.ActionLink("Delete", "Delete", new { id = item.CartId })
+			</td>
+
+		</tr>
+	}
+	<tr>
+		<td align="right" colspan="5">Tổng giá tiền</td>
+		<td>
+			@{
+				List<WebApplication_Product_Db.Models.Product_Models.Cart> cart = Model.ToList();
+				var total = cart.Sum(i => i.CartPrice * i.CartQuantity);
+			}
+			$@total
+		</td>
+	</tr>
+</table>

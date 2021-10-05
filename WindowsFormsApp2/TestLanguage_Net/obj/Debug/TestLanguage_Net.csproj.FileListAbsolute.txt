@@ -1,0 +1,7 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage_Net\bin\Debug\TestLanguage_Net.exe.config
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage_Net\bin\Debug\TestLanguage_Net.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage_Net\bin\Debug\TestLanguage_Net.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage_Net\obj\Debug\TestLanguage_Net.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage_Net\obj\Debug\TestLanguage_Net.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage_Net\obj\Debug\TestLanguage_Net.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage_Net\obj\Debug\TestLanguage_Net.pdb

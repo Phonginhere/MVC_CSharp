@@ -1,0 +1,58 @@
+﻿@model WebApplication_Product_Db.Models.Product_Models.Order
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_Detail.Order_DetailName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Order_Detail.Order_DetailName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_CustomerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Order_CustomerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_CustomerPhoneNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Order_CustomerPhoneNum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_CustomerAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Order_CustomerAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_Time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Order_Time)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OrderId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

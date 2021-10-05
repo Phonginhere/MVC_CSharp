@@ -1,0 +1,66 @@
+﻿@model WebApplication_CodeFirst_Panel.Models.Contact
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Contact</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact_Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact_Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact_Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact_Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact_Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact_Body)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact_Check)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact_Check)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact_Date_Submit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact_Date_Submit)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Contact_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

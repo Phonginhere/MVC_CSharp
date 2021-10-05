@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+	<script type="text/javascript">
+        var app = angular.module('MyApp', []);
+        app.controller('MyController', ['$scope', '$http', function ($scope, $http) {
+            $http({
+                method: 'GET',
+                url: '/Home/getAll/'
+            }).success(function (data) {
+                $scope.items = data;
+            });
+
+            $scope.GenerateReport = function (id) {
+                $http({
+                    method: 'POST',
+                    url: '/Home/GenerateReport/',
+                    params: { eId: id }
+                }).success(function (data) {
+                    window.location = '/Home/Download?filename=' + data.FileName;
+                });;
+            };
+        } ]);
+	</script>
+</head>
+<body ng-app="MyApp" ng-controller="MyController">
+	<div class="container" id="printarea">
+		<table class="table table-bordered">
+			<tr class="success">
+				<th>EId</th>
+				<th>EName</th>
+				<th>Gender</th>
+				<th>PNo</th>
+				<th>Location</th>
+				<th>Company</th>
+				<th>Ation</th>
+			</tr>
+			<tr ng-repeat="item in items">
+				<td>{{item.EId}}</td>
+				<td>{{item.EName}}</td>
+				<td>{{item.Gender}}</td>
+				<td>{{item.PNo}}</td>
+				<td>{{item.Location}}</td>
+				<td>{{item.Company}}</td>
+				<td>
+					<button class="btn btn-success btn-sm" ng-click="GenerateReport(item.EId)">
+						<span class="glyphicon glyphicon-print"></span>&nbsp;PDF
+					</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

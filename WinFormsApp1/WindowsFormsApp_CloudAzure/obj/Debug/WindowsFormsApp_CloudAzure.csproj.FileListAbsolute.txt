@@ -1,0 +1,10 @@
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\bin\Debug\WindowsFormsApp_CloudAzure.exe.config
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\bin\Debug\WindowsFormsApp_CloudAzure.exe
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\bin\Debug\WindowsFormsApp_CloudAzure.pdb
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\obj\Debug\WindowsFormsApp_CloudAzure.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\obj\Debug\WindowsFormsApp_CloudAzure.Form1.resources
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\obj\Debug\WindowsFormsApp_CloudAzure.Properties.Resources.resources
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\obj\Debug\WindowsFormsApp_CloudAzure.csproj.GenerateResource.cache
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\obj\Debug\WindowsFormsApp_CloudAzure.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\obj\Debug\WindowsFormsApp_CloudAzure.exe
+C:\Users\Phong_learning\source\repos\WinFormsApp1\WindowsFormsApp_CloudAzure\obj\Debug\WindowsFormsApp_CloudAzure.pdb

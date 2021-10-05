@@ -1,0 +1,70 @@
+﻿@model IEnumerable<WebAppication_Blog_Only.Models.Blog>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script>
+	$(document).ready(function () {
+		$("#GFG").click(function () {
+			alert("Text: " + $("#GFG").text());
+		});
+
+    });
+   // $(document).ready(function () {
+   //     $("#GFG").click(function () {
+			//var c = document.getElementById("GFG").text();
+			//alert(c);
+   //     });
+   //     });
+	
+</script>
+
+<h2>Index</h2>
+@ViewBag.taggs
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogDetails)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tags)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BlogName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BlogDetails)
+        </td>
+		<td>
+
+			@foreach (var x in item.Tags.Split(' '))
+			{
+
+				<a id="GFG" href="#" onclick="myFunction()">@Html.Raw(x + " ")</a>
+
+			}
+			<a href="#" id="privat" class="Privat">Privat</a>
+
+		</td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BlogId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BlogId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BlogId })
+        </td>
+    </tr>
+}
+
+</table>

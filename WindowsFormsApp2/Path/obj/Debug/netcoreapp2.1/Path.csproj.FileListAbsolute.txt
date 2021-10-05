@@ -1,0 +1,10 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\obj\Debug\netcoreapp2.1\Path.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\obj\Debug\netcoreapp2.1\Path.AssemblyInfoInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\obj\Debug\netcoreapp2.1\Path.AssemblyInfo.cs
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\bin\Debug\netcoreapp2.1\Path.deps.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\bin\Debug\netcoreapp2.1\Path.runtimeconfig.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\bin\Debug\netcoreapp2.1\Path.runtimeconfig.dev.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\bin\Debug\netcoreapp2.1\Path.dll
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\bin\Debug\netcoreapp2.1\Path.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\obj\Debug\netcoreapp2.1\Path.dll
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\Path\obj\Debug\netcoreapp2.1\Path.pdb

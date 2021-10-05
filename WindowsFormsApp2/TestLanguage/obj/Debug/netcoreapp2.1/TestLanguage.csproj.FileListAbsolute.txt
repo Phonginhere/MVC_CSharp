@@ -1,0 +1,11 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\bin\Debug\netcoreapp2.1\TestLanguage.deps.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\bin\Debug\netcoreapp2.1\TestLanguage.runtimeconfig.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\bin\Debug\netcoreapp2.1\TestLanguage.runtimeconfig.dev.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\bin\Debug\netcoreapp2.1\TestLanguage.dll
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\bin\Debug\netcoreapp2.1\TestLanguage.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\obj\Debug\netcoreapp2.1\TestLanguage.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\obj\Debug\netcoreapp2.1\TestLanguage.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\obj\Debug\netcoreapp2.1\TestLanguage.AssemblyInfoInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\obj\Debug\netcoreapp2.1\TestLanguage.AssemblyInfo.cs
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\obj\Debug\netcoreapp2.1\TestLanguage.dll
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestLanguage\obj\Debug\netcoreapp2.1\TestLanguage.pdb

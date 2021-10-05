@@ -1,0 +1,15 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\BaiTongHopOnTHi.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormLogin.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormOptions.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormUser.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormLostAcc.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormWaiting.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\BaiTongHopOnTHi.csproj.GenerateResource.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\BaiTongHopOnTHi.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormCovid.resources

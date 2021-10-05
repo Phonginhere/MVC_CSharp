@@ -1,0 +1,32 @@
+﻿@model WebApplication_Blog_Ver2.Models.Admin.Account
+@{
+	ViewBag.Title = "Login";
+}
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+	@Html.AntiForgeryToken()
+	<div class="card custom-card">
+		<div class="card-header bg-primary text-white">
+			<h3>Login Form</h3>
+		</div>
+		<div class="card-body">
+			<div class="form-group">
+				@Html.LabelFor(m => m.Email)
+				@Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+			</div>
+			<div class="form-group">
+				@Html.LabelFor(m => m.Password)
+				@Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+				@ViewBag.haha
+			</div>
+			<div class="form-group">
+				<input type="submit" name="submit" value="Login" class="btn btn-primary rounded-0" />
+				@*<button type="submit" class="btn btn-primary rounded-0">Login</button>*@
+				@*@Html.ActionLink("Login here", "Login")*@
+			</div>
+
+		</div>
+	</div>
+}

@@ -1,0 +1,10 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\obj\Debug\WindowsFormsBallGame.Properties.Resources.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\obj\Debug\WindowsFormsBallGame.csproj.GenerateResource.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\obj\Debug\WindowsFormsBallGame.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\bin\Debug\WindowsFormsBallGame.exe.config
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\bin\Debug\WindowsFormsBallGame.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\bin\Debug\WindowsFormsBallGame.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\obj\Debug\WindowsFormsBallGame.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\obj\Debug\WindowsFormsBallGame.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\obj\Debug\WindowsFormsBallGame.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\WindowsFormsBallGame\obj\Debug\WindowsFormsBallGame.BallGame.resources

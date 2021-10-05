@@ -1,0 +1,47 @@
+﻿@using WebApplication_Product.Models
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table cellpadding="2" cellspacing="2" border="1">
+	<tr>
+		<th>Option Remove</th>
+		<th>Option Minus</th>
+		<th>Option Add</th>
+		<th>Id</th>
+		<th>Name</th>
+		<th>Photo</th>
+		<th>Price</th>
+		<th>Quantity</th>
+		<th>Sub Total</th>
+	</tr>
+	@foreach (Item item in (List<Item>)Session["cart"])
+	{
+<tr>
+	<td><a href="@Url.Action("Remove", "Carts", new { id = item.Product.ProductId })">Remove</a></td>
+	<td><a href="@Url.Action("Minus", "Carts", new { id = item.Product.ProductId })">Minus</a></td>
+	<td><a href="@Url.Action("Plus", "Carts", new { id = item.Product.ProductId })">Plus</a></td>
+	<td>@item.Product.ProductId</td>
+	<td>@item.Product.ProductName</td>
+	<td><img src="~/Content/Images/@item.Product.productLinkImg" width="60" /> </td>
+	<td>@item.Product.ProductPrice</td>
+	<td>@item.Quantity</td>
+	<td>@(item.Product.ProductPrice * item.Quantity)</td>
+</tr>
+	}
+<tr>
+	<td align="right" colspan="8">Sum</td>
+	<td>
+		@{
+			List<Item> cart = (List<Item>)Session["cart"];
+			var total = cart.Sum(item => item.Product.ProductPrice * item.Quantity);
+		}
+		@total
+	</td>
+</tr>
+</table>
+<br>
+<a href="@Url.Action("Index", "Products")">Continue Shopping</a>
+

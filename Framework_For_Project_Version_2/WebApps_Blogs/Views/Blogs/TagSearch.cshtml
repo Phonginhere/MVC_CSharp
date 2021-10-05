@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebApps_Blogs.Models.BlogModel.Blog>
+
+@{
+    ViewBag.Title = "TagSearch";
+}
+
+<h2>TagSearch</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.BlogName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.BlogTag)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.BlogEdited)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.BlogCreated)
+		</th>
+		<th></th>
+	</tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BlogName)
+        </td>
+		<td>
+			<span style="display:flex;">
+				@{
+					var tags = item.BlogTag.Split(',');
+					foreach (var tag in tags)
+					{
+						using (Html.BeginForm("TagSearch", "Blogs", FormMethod.Get))
+						{
+
+							<a>
+								<input type="submit" name="check" value="@tag" style="background: none; color: inherit;
+						border: none; padding: 0; font: inherit; cursor: pointer; outline: inherit; text-indent: 3px;" />
+							</a>
+						}
+
+					}
+				}
+                </span>
+		</td>
+		<td>
+			@Html.DisplayFor(modelItem => item.BlogEdited)
+		</td>
+		<td>
+			@Html.DisplayFor(modelItem => item.BlogCreated)
+		</td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BlogId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BlogId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BlogId })
+        </td>
+    </tr>
+}
+
+</table>

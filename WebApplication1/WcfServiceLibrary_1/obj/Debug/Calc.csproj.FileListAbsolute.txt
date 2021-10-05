@@ -1,0 +1,7 @@
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfServiceLibrary_1\bin\Debug\WcfServiceLibrary_1.dll.config
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfServiceLibrary_1\bin\Debug\WcfServiceLibrary_1.dll
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfServiceLibrary_1\bin\Debug\WcfServiceLibrary_1.pdb
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfServiceLibrary_1\obj\Debug\Calc.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfServiceLibrary_1\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfServiceLibrary_1\obj\Debug\WcfServiceLibrary_1.dll
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfServiceLibrary_1\obj\Debug\WcfServiceLibrary_1.pdb

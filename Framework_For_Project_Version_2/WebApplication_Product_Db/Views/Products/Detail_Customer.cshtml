@@ -1,0 +1,41 @@
+﻿@model WebApplication_Product_Db.Models.Product_Models.Product
+
+@{
+    ViewBag.Title = "Detail_Customer";
+}
+
+<h2>Detail_Customer</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductCmt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductCmt)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Quay trở lại list các sản phẩm", "View_Customer")
+</p>

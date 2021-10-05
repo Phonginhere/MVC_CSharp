@@ -1,0 +1,7 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ConsoleAppTest\bin\Debug\ConsoleAppTest.exe.config
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ConsoleAppTest\bin\Debug\ConsoleAppTest.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ConsoleAppTest\bin\Debug\ConsoleAppTest.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ConsoleAppTest\obj\Debug\ConsoleAppTest.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ConsoleAppTest\obj\Debug\ConsoleAppTest.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ConsoleAppTest\obj\Debug\ConsoleAppTest.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ConsoleAppTest\obj\Debug\ConsoleAppTest.pdb

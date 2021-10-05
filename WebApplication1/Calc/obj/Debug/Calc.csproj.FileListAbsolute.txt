@@ -1,0 +1,7 @@
+C:\Users\Phong_learning\source\repos\WebApplication1\Calc\bin\Debug\Calc.dll.config
+C:\Users\Phong_learning\source\repos\WebApplication1\Calc\bin\Debug\Calc.dll
+C:\Users\Phong_learning\source\repos\WebApplication1\Calc\bin\Debug\Calc.pdb
+C:\Users\Phong_learning\source\repos\WebApplication1\Calc\obj\Debug\Calc.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WebApplication1\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WebApplication1\Calc\obj\Debug\Calc.dll
+C:\Users\Phong_learning\source\repos\WebApplication1\Calc\obj\Debug\Calc.pdb

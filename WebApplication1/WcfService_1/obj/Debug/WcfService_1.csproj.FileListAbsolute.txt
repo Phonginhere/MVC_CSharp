@@ -1,0 +1,7 @@
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfService_1\bin\WcfService_1.dll.config
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfService_1\bin\WcfService_1.dll
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfService_1\bin\WcfService_1.pdb
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfService_1\obj\Debug\WcfService_1.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfService_1\obj\Debug\WcfService_1.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfService_1\obj\Debug\WcfService_1.dll
+C:\Users\Phong_learning\source\repos\WebApplication1\WcfService_1\obj\Debug\WcfService_1.pdb

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<WebApplication_Blog_Ver2.Models.Admin.EmployeeRoleMapping>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Account.FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Role.RoleName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Account.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Role.RoleName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MapId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MapId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MapId })
+        </td>
+    </tr>
+}
+
+</table>

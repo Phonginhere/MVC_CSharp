@@ -1,0 +1,10 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\bin\Debug\TestGame.exe.config
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\bin\Debug\TestGame.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\bin\Debug\TestGame.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\obj\Debug\TestGame.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\obj\Debug\TestGame.Form1.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\obj\Debug\TestGame.Properties.Resources.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\obj\Debug\TestGame.csproj.GenerateResource.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\obj\Debug\TestGame.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\obj\Debug\TestGame.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\TestGame\obj\Debug\TestGame.pdb

@@ -1,0 +1,86 @@
+﻿@model WebApplication_CodeFirst_Panel_4.Models.Employee
+
+<div>
+	<!--Header for pop-up-->
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h4 class="modal-title" id="myModalLabel">Employee Info</h4>
+	</div>
+	<!--Ending for pop-up-->
+
+	<hr />
+
+	<dl class="dl-horizontal">
+		<dt>
+			@Html.DisplayNameFor(model => model.Employee_Image)
+		</dt>
+
+		<dd>
+			<img src="@Url.Content(Model.Employee_Image)" alt="Image" height="100" width="100" />
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.FullName)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.FullName)
+		</dd>
+		<dt>
+			@Html.DisplayNameFor(model => model.Gender)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Gender)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Email)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Email)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.PhoneNumber)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.PhoneNumber)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.DOB)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.DOB)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Salary)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Salary)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Date_Added)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Date_Added)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Date_Edited)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Date_Edited)
+		</dd>
+
+	</dl>
+</div>

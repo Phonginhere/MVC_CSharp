@@ -1,0 +1,206 @@
+﻿@model WebApplication_CodeFirst_Panel_4.Models.Employee
+
+@{
+	ViewBag.Title = "Create";
+}
+
+<style>
+	body {
+		background: linear-gradient(to left, #6699ff 15%, #009900 100%);
+	}
+</style>
+
+<h2>@Html.ActionLink("Employees", "Index") / Create</h2>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+	$(document).ready(() => {
+		$("#Imagesubmit").change(function () {
+			const file = this.files[0];
+			if (file) {
+				let reader = new FileReader();
+				reader.onload = function (event) {
+					$("#imagePreview")
+						.attr("src", event.target.result);
+				};
+				reader.readAsDataURL(file);
+			}
+		});
+		$("#reset_img").click(function () {
+			$("#Imagesubmit").val("");
+			$("#imagePreview").attr('src','https://localhost:44369/ImageUpload/150.png');
+		});
+		$("#reset_all").click(function () {
+			$("#imagePreview").attr('src', 'https://localhost:44369/ImageUpload/150.png');
+		});
+	});
+</script>
+
+<script type="text/javascript">
+
+	//begin email, img error
+
+	setTimeout(function () {
+		$('#err_msg').fadeOut('fast');
+	}, 3000);
+
+	//end email, img error
+</script>
+
+
+@using (Html.BeginForm("Create", "Employees", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+	@Html.AntiForgeryToken()
+
+	//begin create panel
+
+	<body>
+		<form id="form1">
+			<div class="container p-3 my-3 bg-info text-white">
+				<h3 class="text-center">Create - Employee</h3>
+				<div class="card">
+					<div class="card-header bg-primary text-white">
+						<h3 class="card-title" style="font-weight:bold">Employee Information</h3>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-sm-9 col-md-9 col-xs-12">
+								<div class="row">
+									<div class="col-sm-6 col-md-6 col-xs-12">
+										<div class="form-group">
+											@Html.LabelFor(model => model.FullName, htmlAttributes: new { @class = "control-label" })
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fa fa-user"></i></span>
+												</div>
+												@Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control" } })
+											</div>
+											@Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-6 col-xs-12">
+										<div class="form-group">
+											@Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label" })
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fa fa-user"></i></span>
+												</div>
+												@Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+											</div>
+											@Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6 col-md-6 col-xs-12">
+										<div class="form-group">
+											@Html.LabelFor(model => model.Gender, htmlAttributes: new { @class = "control-label" })
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fa fa-user"></i></span>
+												</div>
+												@Html.EditorFor(model => model.Gender, new { htmlAttributes = new { @class = "form-control" } })
+											</div>
+											@Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-6 col-xs-12">
+										<div class="form-group">
+											@Html.LabelFor(model => model.DOB, htmlAttributes: new { @class = "control-label" })
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fa fa-calendar"></i></span>
+												</div>
+												@Html.EditorFor(model => model.DOB, new { htmlAttributes = new { @class = "form-control" } })
+											</div>
+											@Html.ValidationMessageFor(model => model.DOB, "", new { @class = "text-danger" })
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6 col-md-6 col-xs-12">
+										<div class="form-group">
+											@Html.LabelFor(model => model.PhoneNumber, htmlAttributes: new { @class = "control-label" })
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fa fa-phone"></i></span>
+												</div>
+												@Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+											</div>
+											@Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-6 col-xs-12">
+										<div class="form-group">
+											@Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label" })
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fa fa-envelope"></i></span>
+												</div>
+												@Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+											</div>
+											@Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+											<p style="color: red" id="err_msg">@ViewBag.Notify</p>
+											
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6 col-md-6 col-xs-12">
+										<div class="form-group">
+											@Html.LabelFor(model => model.Salary, htmlAttributes: new { @class = "control-label" })
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fa fa-phone"></i></span>
+												</div>
+												@Html.EditorFor(model => model.Salary, new { htmlAttributes = new { @class = "form-control" } })
+											</div>
+											@Html.ValidationMessageFor(model => model.Salary, "", new { @class = "text-danger" })
+										</div>
+									</div>
+									@*<div class="col-sm-6 col-md-6 col-xs-12">
+										<div class="form-group">
+											@Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label" })
+											<div class="input-group">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fa fa-envelope"></i></span>
+												</div>
+												@Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+											</div>
+											@Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+										</div>
+									</div>*@
+								</div>
+							</div>
+							<div class="col-sm-3 col-md-3 col-xs-12">
+								<img id="imagePreview" class="img-thumbnail" src="~/ImageUpload/150.png" width="150" height="175" />
+								<div class="form-group">
+									@Html.LabelFor(model => model.Employee_Image, htmlAttributes: new { @class = "control-label" })
+									<div class="custom-file">
+										@Html.EditorFor(model => model.Employee_Image, new { htmlAttributes = new { @class = "form-control", @type = "file", id = "Imagesubmit" } })
+										<label class="custom-file-label"></label>
+									</div>
+									@Html.ValidationMessageFor(model => model.Employee_Image, "", new { @class = "text-danger" })
+									<p style="color: red" id="err_msg">@ViewBag.Imgnotify</p>
+								</div>
+							</div>
+						</div>
+
+						<input type="button" value="Remove Image" class="btn btn-warning rounded-0" id="reset_img" />
+						<input type="reset" value="Reset" class="btn btn-danger rounded-0" id="reset_all" />
+						<input type="submit" value="Create" class="btn btn-success rounded-0" />
+					</div>
+					<input type="button" value="Back to List Page" class="btn btn-default rounded-0" onclick="window.location.href='@Url.Action("Index", "Employees")'" />
+					
+				</div>
+			</div>
+		</form>
+	</body>
+
+	//end create panel
+}
+
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}

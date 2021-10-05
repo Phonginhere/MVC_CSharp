@@ -1,0 +1,10 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\bin\Debug\netcoreapp2.1\ShowColumnName.deps.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\bin\Debug\netcoreapp2.1\ShowColumnName.runtimeconfig.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\bin\Debug\netcoreapp2.1\ShowColumnName.runtimeconfig.dev.json
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\bin\Debug\netcoreapp2.1\ShowColumnName.dll
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\bin\Debug\netcoreapp2.1\ShowColumnName.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\obj\Debug\netcoreapp2.1\ShowColumnName.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\obj\Debug\netcoreapp2.1\ShowColumnName.AssemblyInfoInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\obj\Debug\netcoreapp2.1\ShowColumnName.AssemblyInfo.cs
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\obj\Debug\netcoreapp2.1\ShowColumnName.dll
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ShowColumnName\obj\Debug\netcoreapp2.1\ShowColumnName.pdb

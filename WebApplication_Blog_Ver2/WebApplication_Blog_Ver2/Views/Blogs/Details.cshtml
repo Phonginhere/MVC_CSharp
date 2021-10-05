@@ -1,0 +1,58 @@
+﻿@model WebApplication_Blog_Ver2.Models.BlogModel.Blog
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Blog</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BlogName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogContent)
+        </dt>
+
+        <dd>
+            @Html.Raw(Model.BlogContent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BlogTag)
+        </dt>
+
+		<dd>
+			<span style="display:flex;">
+				@{
+					var tags = Model.BlogTag.Split(',');
+					foreach (var tag in tags)
+					{
+						using (Html.BeginForm("TagSearch", "Blogs", FormMethod.Get))
+						{
+									<a>
+										<input type="submit" name="check" value="@tag" style="background: none; color: inherit;
+						border: none; padding: 0; font: inherit; cursor: pointer; outline: inherit;  text-indent: 3px;" />
+									</a>
+								
+						}
+
+					}
+				}
+			</span>
+</dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.BlogId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

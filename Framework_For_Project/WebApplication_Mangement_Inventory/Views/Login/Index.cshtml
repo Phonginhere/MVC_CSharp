@@ -1,0 +1,31 @@
+﻿@model WebApplication_Mangement_Inventory.Models.Account
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>Login</h2>
+
+
+@using (Html.BeginForm("Index", "Login", FormMethod.Post))
+{
+	<div class="row register-form">
+		<div class="col-md-6">
+			<div class="form-group">
+				@Html.TextBoxFor(e => e.Email, new { @class = "form-control", placeholder = "Your Email *" })
+				@*@Html.ValidationMessageFor(e => e.Email)*@
+			</div>
+			<div class="form-group">
+				@Html.PasswordFor(e => e.Password, new { id = "password", @class = "form-control", placeholder = "Password *" })
+				<span id="result"></span>
+				@*@Html.ValidationMessageFor(e => e.Password)*@
+				<p style="color:red">@ViewBag.haha</p>
+				
+			</div>
+			<div class="col-md-6">
+				<input type="submit" name="submit" value="submit" />
+			</div>
+
+		</div>
+	</div>
+}
+

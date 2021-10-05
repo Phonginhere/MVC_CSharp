@@ -1,0 +1,35 @@
+﻿@model WebApplication_PopUp.Models.Employee
+
+<div>
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h4 class="modal-title" id="myModalLabel">Employee Details</h4>
+	</div>
+	
+	<hr />
+	<dl class="dl-horizontal">
+		<dt>
+			@Html.DisplayNameFor(model => model.Employee_Name)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Employee_Name)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Employee_Comment)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Employee_Comment)
+		</dd>
+
+	</dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Employee_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+
+

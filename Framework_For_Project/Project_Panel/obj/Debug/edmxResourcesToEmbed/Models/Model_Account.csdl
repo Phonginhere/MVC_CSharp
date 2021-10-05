@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Account_ManageModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__Employee__DeptId__47DBAE45" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeId" />
+    </Key>
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="11" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DOB" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Salary" Type="Int32" />
+    <Property Name="DeptId" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__Employee__DeptId__47DBAE45" FromRole="Employee" ToRole="Department" />
+    <NavigationProperty Name="EmployeeRoleMappings" Relationship="Self.FK__EmployeeR__Emplo__4CA06362" FromRole="Employee" ToRole="EmployeeRoleMapping" />
+  </EntityType>
+  <EntityType Name="EmployeeRoleMapping">
+    <Key>
+      <PropertyRef Name="MapId" />
+    </Key>
+    <Property Name="MapId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__EmployeeR__Emplo__4CA06362" FromRole="EmployeeRoleMapping" ToRole="Employee" />
+    <NavigationProperty Name="Role" Relationship="Self.FK__EmployeeR__RoleI__4D94879B" FromRole="EmployeeRoleMapping" ToRole="Roles" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="EmployeeRoleMappings" Relationship="Self.FK__EmployeeR__RoleI__4D94879B" FromRole="Roles" ToRole="EmployeeRoleMapping" />
+  </EntityType>
+  <Association Name="FK__Employee__DeptId__47DBAE45">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EmployeeR__Emplo__4CA06362">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="EmployeeRoleMapping" Type="Self.EmployeeRoleMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeId" />
+      </Principal>
+      <Dependent Role="EmployeeRoleMapping">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EmployeeR__RoleI__4D94879B">
+    <End Role="Roles" Type="Self.Role" Multiplicity="1" />
+    <End Role="EmployeeRoleMapping" Type="Self.EmployeeRoleMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="EmployeeRoleMapping">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Account_Context" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="EmployeeRoleMappings" EntityType="Self.EmployeeRoleMapping" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <AssociationSet Name="FK__Employee__DeptId__47DBAE45" Association="Self.FK__Employee__DeptId__47DBAE45">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EmployeeR__Emplo__4CA06362" Association="Self.FK__EmployeeR__Emplo__4CA06362">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmployeeRoleMapping" EntitySet="EmployeeRoleMappings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EmployeeR__RoleI__4D94879B" Association="Self.FK__EmployeeR__RoleI__4D94879B">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="EmployeeRoleMapping" EntitySet="EmployeeRoleMappings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

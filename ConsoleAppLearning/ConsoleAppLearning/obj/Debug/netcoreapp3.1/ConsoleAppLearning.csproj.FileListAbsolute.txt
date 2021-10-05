@@ -1,0 +1,13 @@
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\bin\Debug\netcoreapp3.1\ConsoleAppLearning.exe
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\bin\Debug\netcoreapp3.1\ConsoleAppLearning.deps.json
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\bin\Debug\netcoreapp3.1\ConsoleAppLearning.runtimeconfig.json
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\bin\Debug\netcoreapp3.1\ConsoleAppLearning.runtimeconfig.dev.json
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\bin\Debug\netcoreapp3.1\ConsoleAppLearning.dll
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\bin\Debug\netcoreapp3.1\ConsoleAppLearning.pdb
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\obj\Debug\netcoreapp3.1\ConsoleAppLearning.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\obj\Debug\netcoreapp3.1\ConsoleAppLearning.AssemblyInfoInputs.cache
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\obj\Debug\netcoreapp3.1\ConsoleAppLearning.AssemblyInfo.cs
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\obj\Debug\netcoreapp3.1\ConsoleAppLearning.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\obj\Debug\netcoreapp3.1\ConsoleAppLearning.dll
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\obj\Debug\netcoreapp3.1\ConsoleAppLearning.pdb
+C:\Users\Phong_learning\source\repos\ConsoleAppLearning\ConsoleAppLearning\obj\Debug\netcoreapp3.1\ConsoleAppLearning.genruntimeconfig.cache

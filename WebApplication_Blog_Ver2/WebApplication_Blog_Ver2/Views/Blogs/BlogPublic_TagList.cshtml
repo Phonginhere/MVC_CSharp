@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WebApplication_Blog_Ver2.Models.BlogModel.Blog>
+
+@{
+	ViewBag.Title = "TagSearch";
+}
+
+<h2>Tag: @ViewBag.show</h2>
+
+<div class="container-fluid">
+	<div class="row">
+
+		@foreach (var item in Model)
+		{
+
+			<ul class="list-group">
+				<li class="list-group-item">
+					<a href="@Url.Action("BlogPublic_Details", "Blogs", new { id = item.BlogId })">@item.BlogName</a>
+					<span class="badge">@item.BlogCreated</span>
+
+
+					<span class="badge" style="display:flex;">
+						@{
+							var tags = item.BlogTag.Split(',');
+							foreach (var tag in tags)
+							{
+								using (Html.BeginForm("BlogPublic_TagList", "Blogs", FormMethod.Get))
+								{
+									<span class="badge" >
+										<a>
+											<input type="submit" name="check" value="@tag" style="background: none; color: inherit;
+										border: none; padding: 0; font: inherit; cursor: pointer; outline: inherit;" />
+										</a>
+									</span>
+								}
+
+							}
+						}
+					</span>
+				</li>
+			</ul>
+
+		}
+
+	</div> <!-- End row -->
+</div><!-- End container -->

@@ -1,0 +1,10 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\bin\Debug\MDIWinform.exe.config
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\bin\Debug\MDIWinform.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\bin\Debug\MDIWinform.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\obj\Debug\MDIWinform.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\obj\Debug\MDIWinform.Form1.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\obj\Debug\MDIWinform.Properties.Resources.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\obj\Debug\MDIWinform.csproj.GenerateResource.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\obj\Debug\MDIWinform.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\obj\Debug\MDIWinform.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\MDIWinform\obj\Debug\MDIWinform.pdb

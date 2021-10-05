@@ -1,0 +1,101 @@
+﻿@model WebApplication_Product_Db.Models.Product_Models.Order
+
+@{
+	ViewBag.Title = "Nhập thông tin khánh hàng";
+}
+
+<h2>Thông tin sản phẩm đặt hàng</h2>
+
+<table class="table">
+	<tr>
+		<th>
+			Tên sản phẩm
+		</th>
+		<th>
+			Số lượng
+		</th>
+		<th>
+			Giá tiền
+		</th>
+		<th>
+			Comment
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (WebApplication_Product_Db.Models.Product_Models.Cart cart in ViewBag.carts)
+	{
+		<tr>
+			<td>
+				@cart.CartName
+			</td>
+			<td>
+				@cart.CartQuantity
+			</td>
+			<td>
+				@cart.CartPrice
+			</td>
+			<td>
+				@cart.CartCmt
+			</td>
+		</tr>
+	}
+
+</table>
+<hr />
+
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+
+	<div class="form-horizontal">
+		<h4>Nhập thông tin khách hàng</h4>
+		<hr />
+		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+		<div class="form-group">
+			@Html.LabelFor(model => model.Order_CustomerName, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Order_CustomerName, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Order_CustomerName, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.Order_CustomerPhoneNum, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Order_CustomerPhoneNum, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Order_CustomerPhoneNum, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.Order_CustomerAddress, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Order_CustomerAddress, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Order_CustomerAddress, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		
+		@{
+			List<WebApplication_Product_Db.Models.Product_Models.Cart> check = ViewBag.carts;
+			if (check.Count > 0)
+			{
+				<div class="form-group">
+					<div class="col-md-offset-2 col-md-10">
+						<input type="submit" value="Đặt Hàng" class="btn btn-default" />
+					</div>
+				</div>
+			}
+		}
+
+	</div>
+}
+
+<div>
+	@Html.ActionLink("Quay trở lại đặt hàng", "Index", "Carts")
+</div>
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}

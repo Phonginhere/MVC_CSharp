@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WebApplication_Product_Db.Models.Product_Models.Order_Detail>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Order_DetailName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order_DetailQuantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order_DetailPrice)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Order_DetailName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Order_DetailQuantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Order_DetailPrice)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Order_DetailId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Order_DetailId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Order_DetailId })
+        </td>
+    </tr>
+}
+
+</table>

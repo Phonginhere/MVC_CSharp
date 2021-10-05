@@ -1,0 +1,115 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>@ViewBag.Title - My ASP.NET Application</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		@Styles.Render("~/Content/css")
+		@Scripts.Render("~/bundles/modernizr")
+		<script>
+			$(document).ready(function () {
+				$('[data-toggle="tooltip"]').tooltip();
+				$("#jsalert").click(function () {
+					alert("Hello mình tên là Phong và sở thích của mình là ngồi code. Hiện tại mình đang học ở Aptech.");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					@Html.ActionLink("Phong love blog", "BlogPublic_Index", "Blogs", new { area = "" }, new { @class = "navbar-brand" })
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li>@Html.ActionLink("Tag", "Index_Public", "Tags")</li>
+						<li data-toggle="tooltip" data-placement="bottom" title="Hello mình tên là Phong và sở thích của mình là ngồi code. Hiện tại mình đang học ở Aptech."><a id="jsalert">About</a></li>
+						<li><a href="mailto:eprojectaptech20@gmail.com">Contact</a></li>
+					</ul>
+					@Html.Partial("_LoginPartial")
+				</div>
+			</div>
+		</div>
+		<div class="container body-content">
+			@RenderBody()
+			<hr />
+			<footer style="text-align: center">
+				<p>@DateTime.Now.Year - Created by Phong - Studying in Aptech School</p>
+			</footer>
+		</div>
+
+		@Scripts.Render("~/bundles/jquery")
+		@Scripts.Render("~/bundles/bootstrap")
+		@RenderSection("scripts", required: false)
+	</body>
+</html>
+}
+else
+{
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewBag.Title - My ASP.NET Application</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/modernizr")
+	<script>
+		$(document).ready(function () {
+			$('[data-toggle="tooltip"]').tooltip();
+			$("#jsalert").click(function () {
+				alert("Hello mình tên là Phong và sở thích của mình là ngồi code. Hiện tại mình đang học ở Aptech.");
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				@Html.ActionLink("Phong love blog", "BlogPublic_Index", "Blogs", new { area = "" }, new { @class = "navbar-brand" })
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li>@Html.ActionLink("Tag", "Index_Public", "Tags")</li>
+					<li data-toggle="tooltip" data-placement="bottom" title="Hello mình tên là Phong và sở thích của mình là ngồi code. Hiện tại mình đang học ở Aptech."><a id="jsalert">About</a></li>
+					<li><a href="mailto:eprojectaptech20@gmail.com">Contact</a></li>
+				</ul>
+				@Html.Partial("_LoginPartial")
+			</div>
+		</div>
+	</div>
+	<div class="container body-content">
+		@RenderBody()
+		<hr />
+		<footer style="text-align: center">
+			<p>@DateTime.Now.Year - Created by Phong - Studying in Aptech School</p>
+		</footer>
+	</div>
+
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	@RenderSection("scripts", required: false)
+</body>
+</html>
+
+}

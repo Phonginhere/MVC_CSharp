@@ -1,0 +1,63 @@
+﻿@model IEnumerable<WebApplication_CodeFirst_Panel_2.Models.Contact>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact_Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact_Subject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact_Body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact_Check)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact_Date_Submit)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contact_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contact_Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contact_Subject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contact_Body)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contact_Check)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contact_Date_Submit)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Contact_Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Contact_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Contact_Id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,10 @@
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\bin\Debug\ApplicationTesting.exe.config
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\bin\Debug\ApplicationTesting.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\bin\Debug\ApplicationTesting.pdb
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\obj\Debug\ApplicationTesting.csprojAssemblyReference.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\obj\Debug\ApplicationTesting.Form1.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\obj\Debug\ApplicationTesting.Properties.Resources.resources
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\obj\Debug\ApplicationTesting.csproj.GenerateResource.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\obj\Debug\ApplicationTesting.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\obj\Debug\ApplicationTesting.exe
+C:\Users\Phong_learning\source\repos\WindowsFormsApp2\ApplicationTesting\obj\Debug\ApplicationTesting.pdb

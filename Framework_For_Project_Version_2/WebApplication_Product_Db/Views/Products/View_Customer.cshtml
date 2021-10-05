@@ -1,0 +1,68 @@
+﻿@model IEnumerable<WebApplication_Product_Db.Models.Product_Models.Product>
+
+@{
+	ViewBag.Title = "View_Customer";
+}
+
+@if (ViewBag.outofstock != null)
+{
+	<div class="alert alert-danger alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thất bại!</strong> @ViewBag.outofstock
+	</div>
+
+}
+
+@if (ViewBag.succeed_order != null)
+{
+	<div class="alert alert-success alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thành Công!</strong> @ViewBag.succeed_order
+	</div>
+
+}
+@if (ViewBag.fail_order != null)
+{
+	<div class="alert alert-danger alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thất bại!</strong> @ViewBag.fail_order
+	</div>
+
+}
+
+<h2>List Sản Phẩm Mặt Hàng</h2>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.ProductName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.ProductPrice)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.ProductCmt)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.ProductName)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.ProductPrice)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.ProductCmt)
+			</td>
+			<td>
+				@Html.ActionLink("Buy", "Buy", new { id = item.ProductId }) |
+				@Html.ActionLink("Details", "Detail_Customer", new { id = item.ProductId })
+			</td>
+		</tr>
+	}
+
+</table>

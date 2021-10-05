@@ -1,0 +1,250 @@
+﻿@model IEnumerable<WebApplication_CodeFirst_Panel_4.Models.Employee>
+
+@{
+	ViewBag.Title = "Index";
+}
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+	.flex-container {
+		display: flex;
+	}
+
+	body {
+		background: linear-gradient(to left, #6699ff 15%, #009900 100%);
+	}
+
+	.button_create {
+		margin: 15px;
+	}
+</style>
+
+<script>
+	$(document).ready(function () {
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+</script>
+
+
+<div class="flex-container">
+	<div style="color: white">
+		<h2>Employee List</h2>
+	</div>
+	<div>
+		<button class="btn btn-warning glyphicon glyphicon-plus button_create" data-toggle="tooltip" data-placement="top" title="Create" onclick="window.location.href='@Url.Action("Create", "Employees")'" />
+	</div>
+
+</div>
+
+<table class="table table-bordered table-responsive  " style="color: white">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.Employee_Image)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.FullName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Gender)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.DOB)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Date_Added)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Date_Edited)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+<tr>
+	<td>
+		<img src="@Url.Content(item.Employee_Image)" alt="Image" height="100" width="100" />
+		@*@Html.DisplayFor(modelItem => item.Employee_Image)*@
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.FullName)
+
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Gender)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.DOB)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Date_Added)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Date_Edited)
+	</td>
+	<td>
+		<!--Begin Status Button-->
+		<div class="btn-group" role="group" aria-label="Basic example">
+			@*<button class="btn btn-warning glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="top"
+				title="Edit" onclick="window.location.href='@Url.Action("Edit", "Employees", new { id = item.EmployeeId })'" />*@
+
+			<button href="javascript:void(0);" data-id="@item.EmployeeId" class="anchorEdit btn btn-warning glyphicon glyphicon-edit"
+					data-toggle="tooltip" data-placement="top" title="Edit" />
+
+			@*<button class="btn btn-info glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="top"
+				title="Details" onclick="window.location.href='@Url.Action("Details", "Employees" , new { id = item.EmployeeId })'" />*@
+
+			<button href="javascript:void(0);" data-id="@item.EmployeeId" class="anchorDetail btn btn-info glyphicon glyphicon-info-sign"
+					data-toggle="tooltip" data-placement="top" title="Details" />
+
+			@*<button class="btn btn-danger glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top"
+				title="Delete" onclick="window.location.href='@Url.Action("Delete", "Employees" , new { id = item.EmployeeId })'" />*@
+
+			<button href="javascript:void(0);" data-id="@item.EmployeeId" class="anchorDelete btn btn-danger glyphicon glyphicon-trash"
+					data-toggle="tooltip" data-placement="top" title="Delete" />
+
+			<!--Ending Status Button-->
+		</div>
+	</td>
+</tr>
+	}
+
+</table>
+
+<div id='myModal_Edit' class='modal'>
+	<div class="modal-dialog">
+		<div class="modal-body container" style="margin-left: -300px;">
+			<div id='myModalContent_Edit'></div>
+		</div>
+	</div>
+</div>
+
+<div id='myModal' class='modal'>
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div id='myModalContent'></div>
+		</div>
+	</div>
+</div>
+
+@section scripts
+{
+	<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+	<script src="~/Scripts/bootstrap.js"></script>
+	<script src="~/Scripts/bootstrap.min.js"></script>
+	<script>
+
+		//Begin Edit Pop-Up Ajax
+
+		var TeamEditPostBackURL = '/Employees/Edit';
+		$(function () {
+				$(".anchorEdit").click(function () {
+					debugger;
+					var $buttonClicked = $(this);
+					var id = $buttonClicked.attr('data-id');
+					var options = { "backdrop": "static", keyboard: true };
+					$.ajax({
+						type: "GET",
+						url: TeamEditPostBackURL,
+						contentType: "application/json; charset=utf-8",
+						data: { "Id": id },
+						datatype: "json",
+						success: function (data) {
+							debugger;
+							$('#myModalContent_Edit').html(data);
+							$('#myModal_Edit').modal(options);
+							$('#myModal_Edit').modal('show');
+
+						},
+						error: function () {
+							alert("Dynamic content load failed.");
+						}
+					});
+				});
+
+				$("#closbtn").click(function () {
+					$('#myModal').modal('hide');
+				});
+		});
+
+		//End Edit Pop-Up Ajax
+
+
+		//Begin Details Pop-Up Ajax
+
+		var TeamDetailPostBackURL = '/Employees/Details';
+		$(function () {
+			$(".anchorDetail").click(function () {
+				debugger;
+				var $buttonClicked = $(this);
+				var id = $buttonClicked.attr('data-id');
+				var options = { "backdrop": "static", keyboard: true };
+				$.ajax({
+					type: "GET",
+					url: TeamDetailPostBackURL,
+					contentType: "application/json; charset=utf-8",
+					data: { "Id": id },
+					datatype: "json",
+					success: function (data) {
+						debugger;
+						$('#myModalContent').html(data);
+						$('#myModal').modal(options);
+						$('#myModal').modal('show');
+
+					},
+					error: function () {
+						alert("Dynamic content load failed.");
+					}
+				});
+			});
+
+			$("#closbtn").click(function () {
+				$('#myModal').modal('hide');
+			});
+		});
+
+		//End Details Pop-Up Ajax
+
+		//Begin Delete Pop-Up Ajax
+
+		var TeamDeletePostBackURL = '/Employees/Delete';
+		$(function () {
+			$(".anchorDelete").click(function () {
+				debugger;
+				var $buttonClicked = $(this);
+				var id = $buttonClicked.attr('data-id');
+				var options = { "backdrop": "static", keyboard: true };
+				$.ajax({
+					type: "GET",
+					url: TeamDeletePostBackURL,
+					contentType: "application/json; charset=utf-8",
+					data: { "Id": id },
+					datatype: "json",
+					success: function (data) {
+						debugger;
+						$('#myModalContent').html(data);
+						$('#myModal').modal(options);
+						$('#myModal').modal('show');
+
+					},
+					error: function () {
+						alert("Dynamic content load failed.");
+					}
+				});
+			});
+
+			$("#closbtn").click(function () {
+				$('#myModal').modal('hide');
+			});
+		});
+
+			//Ending Delete Pop-Up Ajax
+
+	</script>
+
+}

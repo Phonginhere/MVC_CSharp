@@ -1,0 +1,45 @@
+﻿@model WebApps_Blogs.Models.BlogModel.Blog
+
+@{
+	ViewBag.Title = "BlogPublic_Details";
+}
+
+
+<h2>Blog: @Html.DisplayFor(model => model.BlogName)</h2>
+<h5>Tạo ra vào lúc? @Html.DisplayFor(model => model.BlogCreated)</h5>
+<h5>Được đính chính lại vào lúc @Html.DisplayFor(model => model.BlogEdited)</h5>
+<div>
+	<hr />
+	<dl class="dl-horizontal">
+
+		<dd>
+			@Html.Raw(Model.BlogContent)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.BlogTag)
+		</dt>
+
+		<dd>
+			@*@Html.DisplayFor(model => model.BlogTag)*@
+			@{
+				var tags = Model.BlogTag.Split(',');
+				foreach (var tag in tags)
+				{
+					using (Html.BeginForm("BlogPublic_TagList", "Blogs", FormMethod.Get))
+					{
+
+						<a>
+							<input type="submit" name="check" value="@tag" style="background: none; color: inherit;
+						border: none; padding: 0; font: inherit; cursor: pointer; outline: inherit;" />
+						</a>
+					}
+
+				}
+			}
+		</dd>
+		@Html.ActionLink("Trở về trang chủ chính", "BlogPublic_Index")
+	</dl>
+</div>
+
+
