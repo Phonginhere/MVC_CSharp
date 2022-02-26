@@ -1,0 +1,76 @@
+﻿@model IEnumerable<WebApplication_EProject.Models.QvA.Answer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+<body style="background-color: #EBEBEB">
+    <h2>Index</h2>
+
+    @*<p>
+            @Html.ActionLink("Create New", "Create")
+        </p>*@
+    <table class="table">
+        <tr style="background: #202020; color: white">
+            <th>
+                @Html.DisplayNameFor(model => model.NhanVien.Ten)
+            </th>
+            <th>
+                Câu trả lời
+                @*@Html.DisplayNameFor(model => model.answer_question)*@
+            </th>
+            <th>
+                Câu hỏi
+                @*@Html.DisplayNameFor(model => model.QuestionId)*@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.answer_date)
+            </th>
+            
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NhanVien.Ten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.answer_question)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Question.question_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.answer_date)
+        </td>
+
+        <td>
+            <button data-id="@item.AnswerId" class="anchorEdit btn btn-warning glyphicon glyphicon-edit"
+                    data-toggle="tooltip" data-placement="top" title="Edit" onclick="window.location.href='@Url.Action("Edit", "Answers", new { id = item.AnswerId })'" />
+        </td>
+        <td>
+            <button href="javascript:void(0);" data-id="@item.AnswerId" class="anchorDetail btn btn-info glyphicon glyphicon-info-sign"
+                    data-toggle="tooltip" data-placement="top" title="Details" onclick="window.location.href='@Url.Action("Details", "Answers", new { id = item.AnswerId })'" />
+        </td>
+        <td>
+            <button href="javascript:void(0);" data-id="@item.AnswerId" class="anchorDelete btn btn-danger glyphicon glyphicon-trash"
+                    data-toggle="tooltip" data-placement="top" title="Delete" onclick="window.location.href='@Url.Action("Delete", "Answers", new { id = item.AnswerId })'" />
+        </td>
+    </tr>
+        }
+
+    </table>
+    </body>

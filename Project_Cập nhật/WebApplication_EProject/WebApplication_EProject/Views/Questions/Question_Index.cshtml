@@ -1,0 +1,50 @@
+﻿@model IEnumerable<WebApplication_EProject.Models.QvA.Question>
+@{
+	ViewBag.Title = "Hello";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+</script>
+<style>
+	a:visited {
+		color: red;
+	}
+
+	a:hover {
+		color: aqua;
+	}
+</style>
+
+<h2>Đây là câu hỏi của các phòng ban trong công ty</h2>
+<div>
+	<button href="javascript:void(0);" class="anchorEdit btn btn-warning glyphicon glyphicon-plus"
+			data-toggle="tooltip" data-placement="top" title="Create" onclick="window.location.href='@Url.Action("Create", "Questions")'" />
+</div>
+<body style="background-color: magenta">
+	<div class="container-fluid">
+		<div class="row">
+
+			@foreach (var item in Model)
+			{
+
+				<ul class="list-group">
+					<li class="list-group-item">
+						<a href="@Url.Action("Question_Details", "Questions", new { id = item.QuestionId })">@item.question_name</a>
+						<span class="badge">@item.Role.RoleName</span>
+						<span class="badge">@item.question_date</span>
+
+
+					</li>
+				</ul>
+
+			}
+
+		</div> <!-- End row -->
+	</div><!-- End container -->
+</body>

@@ -1,0 +1,58 @@
+﻿@model WebApplication_EProject.Models.QvA.Answer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div style="background: #202020;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center" ; color: white">
+    <h4>Answer</h4>
+    <dl  class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NhanVien.Ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhanVien.Ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.answer_question)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.answer_question)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.answer_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.answer_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuestionId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AnswerId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

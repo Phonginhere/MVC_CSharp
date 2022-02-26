@@ -1,0 +1,224 @@
+﻿@model IEnumerable<WebApplication_EProject.Models.Request.Request>
+@using WebApplication_EProject.Models;
+@using Microsoft.AspNet.Identity;
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@if (ViewBag.app_false != null)
+{
+	<div class="alert alert-danger alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thất bại!</strong> @ViewBag.app_false
+	</div>
+}
+@if (ViewBag.Notify != null)
+{
+	<div class="alert alert-success alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thành Công!</strong> @ViewBag.Notify
+	</div>
+}
+
+@{
+	List<SelectListItem> listItems = new List<SelectListItem>();
+	listItems.Add(new SelectListItem
+	{
+		Text = "Hủy đơn hàng",
+		Value = "-2"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Trưởng phòng đang xét duyệt",
+		Value = "0"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Giám đốc đang xét duyệt",
+		Value = "1"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Từ chối đơn hàng",
+		Value = "-1"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Chưa Lấy Hàng",
+		Value = "7"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Đã Nhận Hàng",
+		Value = "8"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Phòng nhân sự đang lấy lại hàng",
+		Value = "9"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Đã trả hàng",
+		Value = "10"
+	});
+}
+<!--Begin cập nhật cho nguyên-->
+@using (Html.BeginForm("Index", "Requests", FormMethod.Get))
+{
+	@Html.DropDownList("Status_Check", listItems, "-- Lựa chọn trạng Thái --", htmlAttributes: new { @class = "form-control" })
+	@Html.DropDownList("Role_ID", null, "-- Lựa Chọn Phòng Ban --", htmlAttributes: new { @class = "form-control" })
+	<input type="submit" value="Tìm kiếm" />
+}
+<!--End cập nhật cho nguyên-->
+<p>
+	@Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.NhanVien.Ten)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Role.RoleName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.VanPhongPham.productName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Unit)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Quantity)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Purpose)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.DateAdd)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Status)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Pause)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Note)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		if (item.Status < 2 || (item.Status >= 7 && item.Status <= 10))
+		{
+<tr>
+	<td>
+		@Html.DisplayFor(modelItem => item.NhanVien.Ten)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Role.RoleName)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.VanPhongPham.productName)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Unit)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Quantity)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Purpose)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.DateAdd)
+	</td>
+	<td>
+		@if (item.Status == -2)
+		{
+			<p>Hủy đơn hàng</p>
+		}
+		else if (item.Status == 0)
+		{
+			<p>Trưởng phòng đang xét duyệt</p>
+		}
+		else if (item.Status == 1)
+		{
+			<p>Giám đốc đang xét duyệt</p>
+		}
+		else if (item.Status == -1)
+		{
+			<p>Từ chối đơn hàng</p>
+		}
+		else if (item.Status == 7)
+		{
+			<p>Chưa Lấy Hàng</p>
+		}
+		else if (item.Status == 8)
+		{
+			<p>Đã Nhận Hàng</p>
+		}
+		else if (item.Status == 9)
+		{
+			<p>Phòng nhân sự đang lấy lại hàng</p>
+		}
+		else if (item.Status == 10)
+		{
+			<p>Đã trả hàng</p>
+		}
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Pause)
+	</td>
+	<td>
+		@Html.DisplayFor(modelItem => item.Note)
+	</td>
+	<td>
+		@{
+			ModelContext db = new ModelContext();
+			var user_check = User.Identity.GetUserName();
+			var check_user = db.NhanViens.Where(c => c.Email == user_check);
+			int role_check = (int)check_user.Select(r => r.Role_ID).First();
+
+			var check = db.Requests.FirstOrDefault(c => c.Request_Id == item.Request_Id);
+			int check_status = check.Status;
+		}
+
+		@if (check_status == 0)
+		{
+			@Html.ActionLink("Kiểm tra", "TruongPhong_Check", new { id = item.Request_Id })
+		}
+		else if (check_status == 1)
+		{
+			@Html.ActionLink("Kiểm tra", "GiamDoc_Check_NhanSu", new { id = item.Request_Id })
+		}
+		else if (check_status == 7)
+		{
+			@Html.ActionLink("Nhận Hàng", "Nhan_Hang", new { id = item.Request_Id, employee_id = item.Employee_ID })
+		}
+		else if (check_status == 8)
+		{
+			@Html.ActionLink("Trả Hàng", "Tra_Hang", new { id = item.Request_Id, employee_id = item.Employee_ID })
+		}
+		else if (check_status == 9)
+		{
+			@Html.ActionLink("Nhận Lại Hàng", "Nhan_lai_Hang", new { id = item.Request_Id })
+		}|
+
+		@Html.ActionLink("Details", "Details", new { id = item.Request_Id })
+		|
+		@if (check_status == 0 || (check_status == 1 && (role_check == 2 || role_check == 3 || role_check == 4 || role_check == 5)))
+		{
+			@Html.ActionLink("Hủy Đơn Hàng", "Delete", new { id = item.Request_Id })
+		}
+	</td>
+</tr>
+		}
+
+	}
+
+</table>

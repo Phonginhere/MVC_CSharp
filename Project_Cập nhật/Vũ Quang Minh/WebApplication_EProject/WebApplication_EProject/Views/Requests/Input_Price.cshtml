@@ -1,0 +1,93 @@
+﻿@model WebApplication_EProject.Models.Request.Request
+
+@{
+	ViewBag.Title = "Input_Price";
+}
+
+<h2>Input_Price</h2>
+
+@using (Html.BeginForm("Input_Price", "Requests", FormMethod.Post))
+{
+	<div style="background: #202020;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center">
+		<h4>Request</h4>
+		<hr />
+		<dl class="dl-horizontal">
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Role.RoleName)
+			</dt>
+
+			<dd>
+				@ViewBag.role
+				<input type="hidden" name="RoleName" value="@ViewBag.role" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.VanPhongPham.productName)
+			</dt>
+
+			<dd>
+				@ViewBag.product
+				<input type="hidden" name="productName" value="@ViewBag.product" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Unit)
+			</dt>
+
+			<dd>
+				@ViewBag.unit
+				<input type="hidden" name="Unit" value="@ViewBag.unit" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Quantity)
+			</dt>
+
+			<dd>
+				@ViewBag.quantity
+				<input type="hidden" name="Quantity" value="@ViewBag.quantity" />
+			</dd>
+
+			<dt>
+				@Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label" })
+			</dt>
+
+			<dd>
+				@*<input type="text" name="Price" class="form-control" placeholder="Phải nhập từ 1 đến 1000" required min="1" , max="1000" />*@
+				@Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", @min = "1"} })
+				@*@Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control", placeholder = "Phải nhập từ 1 đến 1000" } })*@
+				@Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Status)
+			</dt>
+
+			<dd>
+				@if(ViewBag.status == "2")
+				{
+					<p>Vật tư ép giá</p>
+				}
+				<input type="hidden" name="Status" value="@ViewBag.status" />
+			</dd>
+		</dl>
+	</div>
+	<p>
+		<input type="submit" value="Lưu" class="btn btn-default" />
+		@Html.ActionLink("Quay trở lại trang yêu cầu", "Index")
+	</p>
+}
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}

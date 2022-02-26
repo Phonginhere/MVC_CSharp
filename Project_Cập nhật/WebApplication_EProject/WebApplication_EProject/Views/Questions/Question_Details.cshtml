@@ -1,0 +1,51 @@
+﻿@model WebApplication_EProject.Models.QvA.Question
+
+@{
+    ViewBag.Title = "Question_Details";
+}
+<style>
+    a:visited {
+        color: red;
+    }
+
+    a:hover {
+        color: aqua;
+    }
+</style>
+
+<h2>Question: @Html.DisplayFor(model => model.question_name)</h2>
+<h5>Thời gian tạo : @Html.DisplayFor(model => model.question_date)</h5>
+<h5>Được đính chính lại vào lúc @Html.DisplayFor(model => model.question_edited)</h5>
+<h5>Phòng ban phải trả lời @Html.DisplayFor(model => model.Role.RoleName)</h5>
+<div>
+    <hr />
+	<dl class="dl-horizontal">
+		<dt>
+			Mô tả cho câu hỏi đó
+		</dt>
+		<dd>
+			@Html.Raw(Model.question_desc)
+		</dd>
+		<dt>
+			Các câu trả lời
+		</dt>
+		<dd>
+			<table class="table table-striped table-condensed">
+				<tbody>
+					@foreach (var item in ViewBag.employeeData)
+					{
+						<tr>
+							<td>@item.NhanVien.Ten</td>
+							<td>@item.answer_question</td>
+							<td>@item.answer_date</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</dd>
+		<dd>
+			<button name="subject" value="fav_HTML" data-toggle="tooltip" data-placement="top" title="Edit" onclick="window.location.href='@Url.Action("Create", "Answers", new { questionId = Model.QuestionId, employeeId = Model.Employee_ID })'">Comment</button>
+		</dd>
+	</dl>
+    @Html.ActionLink("Trở về trang chủ chính", "Question_Index")
+</div>

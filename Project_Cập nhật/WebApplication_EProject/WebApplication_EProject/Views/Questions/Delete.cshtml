@@ -1,0 +1,72 @@
+﻿@model WebApplication_EProject.Models.QvA.Question
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Question</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NhanVien.Ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhanVien.Ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Role.RoleName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Role.RoleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.question_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.question_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.question_desc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.question_desc)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.question_img)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.question_img)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.question_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.question_date)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

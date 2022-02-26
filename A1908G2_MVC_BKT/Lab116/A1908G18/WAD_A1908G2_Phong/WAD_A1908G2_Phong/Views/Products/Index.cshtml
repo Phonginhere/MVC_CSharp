@@ -1,0 +1,88 @@
+﻿@*@model IEnumerable<WAD_A1908G2_Phong.Models.Product>*@
+@model PagedList.IPagedList<WAD_A1908G2_Phong.Models.Product>
+@using PagedList.Mvc
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@section scripts{
+    <script>
+        $(function () {
+            $('#succ').delay(5000).slideUp(500);
+        })
+    </script>
+    }
+@if(TempData["sucess"] != null)
+{
+    <h2 id="succ" class="alert-success" role="alert">@TempData["sucess"]</h2>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Index", "Products", FormMethod.Get))
+{
+    <p>Find by Name: @Html.TextBox("name") <input type="submit" name="submit" value="submit" /></p>
+    
+}
+@if (Model.Count() == 0)
+{
+    <script type="text/javascript">
+         alert("No Data")
+    </script>
+}
+<table class="table">
+    <tr>
+        <th>
+            Name
+            @*@Html.DisplayNameFor(model => model.Name)*@
+        </th>
+        <th>
+            Price
+            @*@Html.DisplayNameFor(model => model.Price)*@
+        </th>
+        <th>
+            Quantity
+            @*@Html.DisplayNameFor(model => model.Quantity)*@
+        </th>
+        <th>
+            ReleaseDate
+            @*@Html.DisplayNameFor(model => model.ReleaseDate)*@
+        </th>
+        <th>
+            CategoryName
+            @*@Html.DisplayNameFor(model => model.Category.CategoryName)*@
+        </th>
+        <th>Actions</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReleaseDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category.CategoryName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProductId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProductId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProductId })
+        </td>
+    </tr>
+}
+
+</table>
+
+Page:@(Model.PageNumber < Model.PageSize ? 0 : Model.PageSize) of @Model.PageCount
+@Html.PagedListPager(Model, Page_No => Url.Action("Index", new { Page_No, sorting_order  = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue}))

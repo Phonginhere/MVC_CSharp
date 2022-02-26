@@ -1,0 +1,101 @@
+﻿@model WebApplication_EProject.Models.Request.Request
+@{
+	ViewBag.Title = "Buy_Product";
+}
+
+<h2>Buy_Product</h2>
+
+@using (Html.BeginForm("Buy_Product", "Requests", FormMethod.Post))
+{
+
+	@Html.AntiForgeryToken();
+	<div>
+		<h4>Request</h4>
+		<hr />
+		<dl class="dl-horizontal">
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Role.RoleName)
+			</dt>
+
+			<dd>
+				@ViewBag.role
+				<input type="hidden" name="RoleName" value="@ViewBag.role" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.VanPhongPham.productName)
+			</dt>
+
+			<dd>
+				@ViewBag.product
+				<input type="hidden" name="productName" value="@ViewBag.product" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Unit)
+			</dt>
+
+			<dd>
+				@ViewBag.unit
+				<input type="hidden" name="Unit" value="@ViewBag.unit" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Quantity)
+			</dt>
+
+			<dd>
+				@ViewBag.quantity
+				<input type="hidden" name="Quantity" value="@ViewBag.quantity" />
+			</dd>
+
+			<dt>
+				@Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label" })
+			</dt>
+
+			<dd>
+				@ViewBag.price
+				<input type="hidden" name="Price" value="@ViewBag.price" />
+			</dd>
+
+			<dt>
+				Tổng tiền (1 = 1000đ)
+			</dt>
+
+			<dd>
+				@ViewBag.tontien
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Status)
+			</dt>
+
+			<dd>
+				@if (ViewBag.status == "5")
+				{
+					<p>Vật tư mua hàng</p>
+				}
+				<input type="hidden" name="Status" value="@ViewBag.status" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Note)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Note)
+			</dd>
+			<dt>
+				Xác nhận
+			</dt>
+			<dd>
+				@Html.CheckBox("approve", "Đồng ý")
+			</dd>
+		</dl>
+	</div>
+	<p>
+		<input type="submit" value="Lưu" class="btn btn-default" />
+		@Html.ActionLink("Quay trở lại trang yêu cầu", "Index")
+	</p>
+}

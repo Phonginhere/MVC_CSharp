@@ -1,0 +1,98 @@
+﻿@model WebApplication_EProject.Models.NhanVienModel.NhanVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<body style="background-color: #EBEBEB">
+    <div style="background: #202020;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center" ; color: white">
+        <h2 style="text-align:center">NhanVien</h2>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+
+            <dd>
+                @if (Model.Status == 1)
+                {
+                    <p>Kích Hoạt</p>
+                }else if (Model.Status == 0)
+                {
+                    <p> Vô hiệu hóa</p>
+                }
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Ten)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Ten)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SDT)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SDT)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.NgayTao)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NgayTao)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.NgaySua)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NgaySua)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DOB)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DOB)
+            </dd>
+
+            @*<dt>
+            @Html.DisplayNameFor(model => model.MatKhau)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MatKhau)
+        </dd>*@
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Employee_ID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>

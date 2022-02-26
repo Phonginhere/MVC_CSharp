@@ -1,0 +1,107 @@
+﻿@model WebApplication_EProject.Models.Request.Request
+@{
+	ViewBag.Title = "Nhan_Hang";
+}
+
+<h2>Nhan_Hang</h2>
+
+@using (Html.BeginForm("Nhan_Hang", "Requests", FormMethod.Post))
+{
+
+	@Html.AntiForgeryToken();
+	<div>
+		<h4>Request</h4>
+		<hr />
+		<dl class="dl-horizontal">
+			<dd>
+				@Html.HiddenFor(model => model.Request_Id)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.NhanVien.Ten)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.NhanVien.Ten)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Role.RoleName)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Role.RoleName)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.VanPhongPham.productName)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.VanPhongPham.productName)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Unit)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Unit)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Quantity)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Quantity)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Price)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Price)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Purpose)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Purpose)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.DateAdd)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.DateAdd)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Status)
+			</dt>
+
+			<dd>
+				@if (Model.Status == 7)
+				{
+					<p>Chưa Lấy Hàng</p>
+				}
+				@Html.HiddenFor(model => model.Status)
+			</dd>
+			<dt>
+				Xác nhận
+			</dt>
+			<dd>
+				@Html.CheckBox("approve", "Đồng ý")
+			</dd>
+		</dl>
+	</div>
+	<p>
+		<input type="submit" value="Lưu" class="btn btn-default" />
+		@Html.ActionLink("Back to List", "Index")
+	</p>
+}

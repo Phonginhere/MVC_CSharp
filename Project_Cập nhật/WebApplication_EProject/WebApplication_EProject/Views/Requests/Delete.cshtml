@@ -1,0 +1,119 @@
+﻿@model WebApplication_EProject.Models.Request.Request
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Request</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NhanVien.Ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhanVien.Ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Role.RoleName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Role.RoleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VanPhongPham.productName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VanPhongPham.productName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Unit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Unit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Purpose)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Purpose)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateAdd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateAdd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+		<dd>
+			@if (Model.Status == -2)
+			{
+				<p>Hủy đơn hàng</p>
+			}
+			else if (Model.Status == -1)
+			{
+				<p>Từ chối đơn hàng</p>
+			}
+			else if (Model.Status == 0)
+			{
+				<p>Trưởng phòng đang xét duyệt</p>
+			}
+			else if (Model.Status == 1)
+			{
+				<p>Giám đốc đang xét duyệt</p>
+			}
+		</dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Note)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Note)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Hủy" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

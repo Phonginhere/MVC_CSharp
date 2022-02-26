@@ -1,0 +1,122 @@
+﻿@model WebApplication_EProject.Models.Request.Request
+
+@{
+	ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div style="background: #202020;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center" >
+	<h4>Request</h4>
+	<hr />
+	<dl class="dl-horizontal">
+		<dt>
+			@Html.DisplayNameFor(model => model.NhanVien.Ten)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.NhanVien.Ten)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Role.RoleName)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Role.RoleName)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.VanPhongPham.productName)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.VanPhongPham.productName)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Unit)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Unit)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Quantity)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Quantity)
+		</dd>
+
+		@*<dt>
+			@Html.DisplayNameFor(model => model.Price)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Price)
+		</dd>*@
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Purpose)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Purpose)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.DateAdd)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.DateAdd)
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Status)
+		</dt>
+		@Html.Hidden("id");
+
+		<dd>
+			@if (Model.Status == -2)
+			{
+			<p>Hủy đơn hàng</p>
+			}
+			else if (Model.Status == -1)
+			{
+				<p>Từ chối đơn hàng</p>
+			}
+			else if (Model.Status == 0)
+			{
+				<p>Trưởng phòng đang xét duyệt</p>
+			}
+			else if (Model.Status == 1)
+			{
+				<p>Giám đốc đang xét duyệt</p>
+			}
+		</dd>
+
+		<dt>
+			@Html.DisplayNameFor(model => model.Note)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Note)
+		</dd>
+
+	</dl>
+</div>
+<p>
+	@Html.ActionLink("Back to List", "Index")
+</p>

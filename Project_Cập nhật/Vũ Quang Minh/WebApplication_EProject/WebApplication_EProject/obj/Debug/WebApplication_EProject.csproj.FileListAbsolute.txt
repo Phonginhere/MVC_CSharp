@@ -1,0 +1,666 @@
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll.config
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.pdb
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe.config
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.rsp
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe.config
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.rsp
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Console.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe.config
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.rsp
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\WebGrease.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CopyComplete
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.pdb
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Owin.dll
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\source\repos\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll.config
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.pdb
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe.config
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.rsp
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe.config
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.rsp
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.AppContext.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Console.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Http.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe.config
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.rsp
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Owin.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\PagedList.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\WebGrease.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\PagedList.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.pdb
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CopyComplete
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.dll
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.pdb
+C:\Users\Phong_learning\Downloads\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csprojAssemblyReference.cache
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll.config
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.pdb
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe.config
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.rsp
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe.config
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.rsp
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.AppContext.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Collections.Immutable.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Console.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Globalization.Calendars.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Http.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Sockets.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.ValueTuple.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe.config
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.rsp
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe.config
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Web.Infrastructure.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Owin.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\PagedList.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\WebGrease.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\PagedList.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.pdb
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.AssemblyReference.cache
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CoreCompileInputs.cache
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.dll
+D:\BaiTap\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.pdb
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll.config
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.pdb
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe.config
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.rsp
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe.config
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.rsp
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Console.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe.config
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.rsp
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Owin.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\PagedList.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\WebGrease.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\PagedList.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.dll
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.pdb
+C:\Users\Admin\OneDrive\Desktop\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csprojAssemblyReference.cache
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll.config
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.pdb
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe.config
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.rsp
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe.config
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.rsp
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.AppContext.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Console.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Http.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe.config
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.rsp
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Owin.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\PagedList.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\WebGrease.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\PagedList.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.pdb
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csprojAssemblyReference.cache
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CoreCompileInputs.cache
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CopyComplete
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.dll
+C:\Users\Phong_learning\Downloads\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.pdb
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll.config
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\WebApplication_EProject.pdb
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.exe.config
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csc.rsp
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.exe.config
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\csi.rsp
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.AppContext.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Console.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Globalization.Calendars.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Http.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Net.Sockets.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.ValueTuple.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.exe.config
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\vbc.rsp
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Owin.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\PagedList.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\WebGrease.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\BCrypt.Net-Next.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\EntityFramework.SqlServer.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\PagedList.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\PagedList.Mvc.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Buffers.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Memory.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Numerics.Vectors.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Helpers.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Mvc.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Optimization.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.Razor.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Deployment.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\System.Web.WebPages.Razor.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Newtonsoft.Json.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Antlr3.Runtime.pdb
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csprojAssemblyReference.cache
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CoreCompileInputs.cache
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.csproj.CopyComplete
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.dll
+D:\Project_Cập nhật\Vũ Quang Minh\WebApplication_EProject\WebApplication_EProject\obj\Debug\WebApplication_EProject.pdb

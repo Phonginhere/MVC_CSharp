@@ -1,0 +1,64 @@
+﻿@model PagedList.IPagedList<WebApplication_EProject.Models.Request.VanPhongPham>
+@using PagedList.Mvc
+
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+	@Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("Index", "VanPhongPhams", FormMethod.Get))
+{
+	<p>
+		Search: @Html.TextBox("SearchString")
+		<input type="submit" value="Find" />
+	</p>
+}
+
+<div class="container">
+	<h2 class="text-center">Item List</h2>
+	@foreach (var item in Model)
+	{
+		<div class="col-md-4" style="border : 2px solid black">
+			<div style="text-align: center; border-bottom : 2px solid maroon">
+				<h3>@item.productName</h3>
+			</div>
+
+			<div>
+				<div class="col-md-8">
+					<img src="~/Image/@item.productImage" width="150" height="150" />
+				</div>
+
+				<div class="col-md-4" style="text-align: left">
+					<b>@item.producer</b>
+				</div>
+			</div>
+			<div class="col-md-8" style="text-align: left; border-top: 2px solid maroon; padding: 2px">
+				<td>
+					<button href="javascript:void(0);" data-id="@item.productID" class="anchorDetail btn btn-info glyphicon glyphicon-info-sign"
+							data-toggle="tooltip" data-placement="top" title="Details" onclick="window.location.href='@Url.Action("Details", "VanPhongPhams", new { id = item.productID })'" />
+				</td>
+			</div>
+			<div class="col-md-4" style="text-align: right; margin-bottom: 10px; border-top: 2px solid maroon; padding: 2px ">
+				<td>
+					<button href="javascript:void(0);" data-id="@item.productID" class="anchorEdit btn btn-warning glyphicon glyphicon-edit"
+							data-toggle="tooltip" data-placement="top" title="Edit" onclick="window.location.href='@Url.Action("Edit", "VanPhongPhams", new { id = item.productID })'" />
+				</td>
+
+				<td>
+					<button href="javascript:void(0);" data-id="@item.productID" class="anchorDelete btn btn-danger glyphicon glyphicon-trash"
+							data-toggle="tooltip" data-placement="top" title="Delete" onclick="window.location.href='@Url.Action("Delete", "VanPhongPhams", new { id = item.productID })'" />
+				</td>
+			</div>
+		</div>
+	}
+
+</div>
+
+<br />
+Page: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+        of @Model.PageCount @Html.PagedListPager(Model, Page_No
+=> Url.Action("Index", new { Page_No }))

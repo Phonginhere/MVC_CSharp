@@ -1,0 +1,25 @@
+﻿@model IEnumerable<WebApplication_EProject.Models.NhanVienModel.Role>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RoleName)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RoleName)
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,231 @@
+﻿@using WebApplication_EProject.Models.Request
+@using WebApplication_EProject.Models;
+@model List<Group<string, Request>>
+
+@{
+	ViewBag.Title = "Index_Group_Product";
+}
+
+@if (ViewBag.app_false != null)
+{
+	<div class="alert alert-danger alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thất Bại!</strong> @ViewBag.app_false
+	</div>
+}
+@if (ViewBag.no_zero != null)
+{
+	<div class="alert alert-danger alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thất Bại!</strong> @ViewBag.app_false
+	</div>
+}@if (ViewBag.Notify != null)
+{
+	<div class="alert alert-success alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<strong>Thành Công!</strong> @ViewBag.Notify
+	</div>
+}
+<h2>Index_Group_Product</h2>
+
+@{
+	List<SelectListItem> listItems = new List<SelectListItem>();
+	listItems.Add(new SelectListItem
+	{
+		Text = "Phòng vật tư nhập số liệu",
+		Value = "2"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Giám đốc kiểm tra giá tiền",
+		Value = "3"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Kế toán trả tiền",
+		Value = "4"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Phòng vật tư mua hàng",
+		Value = "5"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Phòng nhân sự nhận hàng",
+		Value = "6"
+	});
+}
+<!--Begin cập nhật cho nguyên-->
+@using (Html.BeginForm("Index_Group_Product", "Requests", FormMethod.Get))
+{
+
+	@Html.DropDownList("Status_Check", listItems, "-- Lựa chọn trạng Thái --", htmlAttributes: new { @class = "form-control" })
+	@Html.DropDownList("Role_ID", null, "-- Lựa Chọn Phòng Ban --", htmlAttributes: new { @class = "form-control" })
+	<input type="submit" value="Tìm kiếm" />
+}
+<!--End cập nhật cho nguyên-->
+<table class="table">
+	<tr>
+		<th>
+			Phòng ban
+		</th>
+		<th>
+			Tên văn phòng phẩm
+		</th>
+		<th>
+			Đơn vị tính
+		</th>
+		<th>
+			Số lượng
+		</th>
+		<th>
+			Đơn giá
+		</th>
+		<th>
+			Trạng thái
+		</th>
+		<th>
+			Tạm hoãn
+		</th>
+		<th>
+			Ghi Chú
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@item.KeyRole
+			</td>
+			<td>
+				@item.KeyProduct
+			</td>
+			<td>
+				@item.KeyUnit
+			</td>
+			<td>
+				@item.KeyQuantity
+			</td>
+			<td>
+				@item.KeyPrice
+			</td>
+			<td>
+				@if (item.KeyStatus == "2")
+				{
+					<p>Phòng vật tư nhập số liệu</p>
+				}
+				else if (item.KeyStatus == "3")
+				{
+					<p>Giám đốc kiểm tra giá tiền</p>
+				}
+				else if (item.KeyStatus == "4")
+				{
+					<p>Kế toán trả tiền</p>
+				}
+				else if (item.KeyStatus == "5")
+				{
+					<p>Phòng vật tư mua hàng</p>
+				}
+				else if (item.KeyStatus == "6")
+				{
+					<p>Phòng nhân sự nhận hàng</p>
+				}
+			</td>
+			<td>
+				@{
+					bool check = Convert.ToBoolean(item.KeyPause);
+					if (check == true)
+					{
+						@Html.CheckBox("isActive", true, new { @disabled = "disabled" })
+					}
+					else
+					{
+						@Html.CheckBox("isActive", false, new { @disabled = "disabled" })
+					}
+				}
+			</td>
+			<td>
+				@item.KeyNote
+			</td>
+			<td>
+				@{
+					ModelContext db = new ModelContext();
+
+					//var check = db.Requests.FirstOrDefault(c => c.Request_Id == item.Request_Id);
+					int check_status = Convert.ToInt32(item.KeyStatus);
+				}
+				@if (check_status == 2)
+				{
+					@Html.ActionLink("Nhập số lượng", "Input_Price", new
+					{
+						role = item.KeyRole,
+						product = item.KeyProduct,
+						unit = item.KeyUnit,
+				   quantity = item.KeyQuantity,
+						price = item.KeyPrice,
+						status = item.KeyStatus,
+						note = item.KeyNote
+					})
+				}
+				else if (check_status == 3)
+				{
+					@Html.ActionLink("Kiểm tra", "Check_Price", new
+			   {
+				   role = item.KeyRole,
+				   product = item.KeyProduct,
+				   unit = item.KeyUnit,
+				   quantity = item.KeyQuantity,
+				   price = item.KeyPrice,
+				   pause = Convert.ToBoolean(item.KeyPause),
+						status = item.KeyStatus,
+				   note = item.KeyNote
+			   })
+				}
+				else if (check_status == 4)
+				{
+					@Html.ActionLink("Trả Tiền", "Send_Money", new
+					{
+						role = item.KeyRole,
+						product = item.KeyProduct,
+						unit = item.KeyUnit,
+				   quantity = item.KeyQuantity,
+						price = item.KeyPrice,
+						status = item.KeyStatus,
+						note = item.KeyNote
+					})
+				}
+				else if (check_status == 5)
+				{
+					@Html.ActionLink("Mua Hàng", "Buy_Product", new
+					{
+						role = item.KeyRole,
+						product = item.KeyProduct,
+						unit = item.KeyUnit,
+				   quantity = item.KeyQuantity,
+						price = item.KeyPrice,
+						status = item.KeyStatus,
+						note = item.KeyNote
+					})
+				}
+				else if (check_status == 6)
+				{
+					@Html.ActionLink("Nhận Hàng", "Get_Product", new
+					{
+						role = item.KeyRole,
+						product = item.KeyProduct,
+						unit = item.KeyUnit,
+				   quantity = item.KeyQuantity,
+						price = item.KeyPrice,
+						status = item.KeyStatus,
+						note = item.KeyNote
+					})
+				}
+
+			</td>
+		</tr>
+	}
+
+</table>

@@ -1,0 +1,75 @@
+﻿@model WebApplication_EProject.Models.QvA.Question
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div style="background: #202020;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center" ; color: white">
+    <h4>Question</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NhanVien.Ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NhanVien.Ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Role.RoleName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Role.RoleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.question_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.question_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.question_desc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.question_desc)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.question_img)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.question_img)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.question_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.question_date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.QuestionId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

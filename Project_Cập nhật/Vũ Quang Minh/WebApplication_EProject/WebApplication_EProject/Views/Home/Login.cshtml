@@ -1,0 +1,53 @@
+﻿@model WebApplication_EProject.Models.NhanVienModel.NhanVien
+@{
+    ViewBag.Title = "Login";
+}
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+   
+
+        
+
+   
+
+<body background="https://previews.123rf.com/images/nadiinko/nadiinko2001/nadiinko200100048/137769050-stationery-background-school-tools-seamless-pattern-art-education-wallpaper-with-line-icons-of-penci.jpg">
+    @Html.AntiForgeryToken()
+    <div style="background: #202020;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center" ; class="card custom-card">
+        <div class="card-header bg-primary text-white">
+            <h3>Login</h3>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.MatKhau)
+                @Html.PasswordFor(m => m.MatKhau, new { @class = "form-control" })
+                <div style="color: red;">@ViewBag.haha</div>
+            </div>
+            <div class="form-group">
+                <input type="submit" name="submit" value="Login" class="btn btn-primary rounded-0" />
+            </div>
+        </div>
+        <a href="~/Home/Forget">Forget Your Password</a>
+    </div>
+    <div class="footer">
+        <p>
+            &copy; 2021 Simple Signin Form. All rights reserved | Design by
+            <a>Phong Lite</a>
+        </p>
+    </div>
+</body>
+}
+

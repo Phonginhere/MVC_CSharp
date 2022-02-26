@@ -1,0 +1,153 @@
+﻿@model WebApplication_EProject.Models.Request.Request
+
+@{
+	ViewBag.Title = "Check_Price";
+}
+
+<script type="text/javascript">
+	function denyStatus() {
+		document.getElementById("note").disabled = false;
+	}
+	function noStatus() {
+		document.getElementById("note").disabled = true;
+	}
+	function approveStatus() {
+		document.getElementById("note").disabled = true;
+	}
+	function pauseStatus() {
+		document.getElementById("note").disabled = true;
+	}
+</script>
+
+@*<h2>GiamDoc_Check_NhanVien</h2>*@
+
+@using (Html.BeginForm("Check_Price", "Requests", FormMethod.Post))
+{
+
+	@Html.AntiForgeryToken();
+	<div style="background: #202020;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center" >
+		<h4>Request</h4>
+		<hr />
+		<dl class="dl-horizontal">
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Role.RoleName)
+			</dt>
+
+			<dd>
+				@ViewBag.role
+				<input type="hidden" name="RoleName" value="@ViewBag.role" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.VanPhongPham.productName)
+			</dt>
+
+			<dd>
+				@ViewBag.product
+				<input type="hidden" name="productName" value="@ViewBag.product" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Unit)
+			</dt>
+
+			<dd>
+				@ViewBag.unit
+				<input type="hidden" name="Unit" value="@ViewBag.unit" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Quantity)
+			</dt>
+
+			<dd>
+				@ViewBag.quantity
+				<input type="hidden" name="Quantity" value="@ViewBag.quantity" />
+			</dd>
+
+			<dt>
+				Đơn giá (1 = 1000đ)
+			</dt>
+
+			<dd>
+				@ViewBag.price
+				<input type="hidden" name="Quantity" value="@ViewBag.price" />
+			</dd>
+
+			<dt>
+				Tổng tiền (1 = 1000đ)
+			</dt>
+
+			<dd>
+				@ViewBag.tontien
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Status)
+			</dt>
+
+			<dd>
+				@if (ViewBag.status == "3")
+				{
+					<p>Giám đốc kiểm tra</p>
+				}
+				<input type="hidden" name="Status_First" value="@ViewBag.status" />
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Pause)
+			</dt>
+
+			<dd>
+				@if (ViewBag.pause == true)
+				{
+					<p>Có</p>
+				}
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Note)
+			</dt>
+
+			<dd>
+				@Html.EditorFor(model => model.Note, new { htmlAttributes = new { @class = "form-control", id = "note", disabled = "disabled" } })
+				@Html.ValidationMessageFor(model => model.Note, "", new { @class = "text-danger" })
+			</dd>
+
+			<dt>
+				Trạng thái
+			</dt>
+
+			<dd>
+				Chưa phê duyệt @Html.RadioButtonFor(m => m.Status, "3", new { onclick = "if(this.checked){noStatus()}" })|
+				Chấp thuận @Html.RadioButtonFor(m => m.Status, "4", new { onclick = "if(this.checked){approveStatus()}" })|
+				Từ chối @Html.RadioButtonFor(m => m.Status, "2", new { onclick = "if(this.checked){denyStatus()}" })|
+				Tạm Hoãn @Html.RadioButtonFor(m => m.Status, "0", new { onclick = "if(this.checked){pauseStatus()}" })
+			</dd>
+			<dt>
+				Xác nhận
+			</dt>
+			<dd>
+				@Html.CheckBox("approve", "Đồng ý")
+			</dd>
+		</dl>
+	</div>
+	<p>
+		<input type="submit" value="Lưu" class="btn btn-default" />
+		@Html.ActionLink("Quay trở lại trang yêu cầu", "Index")
+	</p>
+}
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}

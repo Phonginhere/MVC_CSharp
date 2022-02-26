@@ -1,0 +1,124 @@
+﻿@model WebApplication_EProject.Models.NhanVienModel.NhanVien
+
+@{
+	ViewBag.Title = "Edit";
+
+	List<SelectListItem> listItems = new List<SelectListItem>();
+	listItems.Add(new SelectListItem
+	{
+		Text = "Kích Hoạt",
+		Value = "1"
+	});
+	listItems.Add(new SelectListItem
+	{
+		Text = "Vô Hiệu Hóa",
+		Value = "0"
+	});
+}
+
+<h2>Edit</h2>
+
+<body style="background-color: #EBEBEB">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+	<div style="background: #202020;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center" ; class="form-horizontal">
+		<h2>NhanVien</h2>
+		<hr />
+		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+		@Html.HiddenFor(model => model.Employee_ID)
+
+		<div class="form-group">
+			<div>
+				@Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+				<div class="col-md-10">
+					@Html.DropDownListFor(model => model.Status, listItems, "-- Select Status --", htmlAttributes: new { @class = "form-control" })
+				</div>
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.Ten, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Ten, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Ten, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+				<div style="color: red">@ViewBag.err_email</div>
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.SDT, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.SDT, "", new { @class = "text-danger" })
+				<div style="color: red">@ViewBag.err_SDT</div>
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.DOB, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.DOB, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.DOB, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.MatKhau, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.MatKhau, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.MatKhau, "", new { @class = "text-danger" })
+				<div style="color: red">@ViewBag.err_l</div>
+			</div>
+		</div>
+
+		<div class="form-group">
+			@Html.LabelFor(model => model.Role_ID, "Role_ID", htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.DropDownList("Role_ID", null, htmlAttributes: new { @class = "form-control" })
+				@Html.ValidationMessageFor(model => model.Role_ID, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div>
+				@Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+				<div class="col-md-10">
+					@Html.DropDownListFor(model => model.Status, listItems, "-- Select Status --", htmlAttributes: new { @class = "form-control" })
+				</div>
+			</div>
+		</div>
+
+
+		<div class="form-group">
+			<input type="submit" name="submit" value="Save" class="btn btn-primary rounded-0" />
+		</div>
+	</div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</body>

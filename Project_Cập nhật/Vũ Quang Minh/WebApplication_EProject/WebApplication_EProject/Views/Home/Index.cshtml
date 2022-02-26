@@ -1,0 +1,223 @@
+﻿@model IEnumerable<WebApplication_EProject.Models.Request.Request>
+@using Microsoft.AspNet.Identity;
+@using WebApplication_EProject.Models;
+@{
+    ViewBag.Title = "Home Page";
+} 
+<body style="background-color: #EBEBEB">
+	@{
+		ModelContext db = new ModelContext();
+		var user_check = User.Identity.GetUserName();
+		var check_user = db.NhanViens.Where(c => c.Email == user_check);
+		String username = check_user.Select(r => r.Ten).First();
+		int role_check = (int)check_user.Select(r => r.Role_ID).First();
+
+
+		<h2 style="text-align:center">Xin Chào bạn @username</h2>
+		if (role_check == 2) //giám đốc
+		{
+			<h3>Số lượng nhân viên hiện tại: @ViewBag.count_employee</h3>
+			<h3>Số lượng văn phòng phẩm: @ViewBag.count_stationery</h3>
+			<h3>Đơn hàng</h3>
+			<h4>Số lượng hủy đơn hàng từ nhân viên: @ViewBag.count_request_huydon</h4>
+			<h4>Số lượng từ chối đơn hàng: @ViewBag.count_request_tuchoidon</h4>
+			<h4>Số lượng đơn hàng mới tạo: @ViewBag.count_donhang_moitao</h4>
+			<h4>Số lượng đơn hàng vật tư đang đi mua: @ViewBag.count_request_vattu_muahang</h4>
+			<h4>Số lượng thành viên nhân được hàng là: @ViewBag.count_request_thanhvien_nhanhang</h4>
+			<h4>Số lượng thành viên trả hang là: @ViewBag.count_request_thanhvien_trahang</h4>
+		}
+		else if (role_check == 6) // truong phong
+		{
+			<h4>Số lượng đơn hàng mới tạo từ nhân viên: @ViewBag.count_donhang_moitao_nhanvien</h4>
+		}
+		else if (role_check == 3) // phòng nhân sự
+		{
+			<h4>Thành viên các ban chưa lấy hàng @ViewBag.count_request_thanhvien_chua_layhang</h4>
+			<h4>Thành viên các ban trả hàng: @ViewBag.count_request_tralaihang_cho_nhansu</h4>
+		}
+		else if (role_check == 5) // phòng vật tư
+		{
+			<h4>Số lượng văn phòng phẩm: @ViewBag.count_stationery</h4>
+			<h4>Số lượng cần ép giá: @ViewBag.group_by_need_epgia</h4>
+			<h4>Số lượng đơn hàng cần đi mua: @ViewBag.group_by_mua_hang</h4>
+		}
+		else if (role_check == 4) // phòng kế toán
+		{
+			<h4>Cần trả tiền: @ViewBag.group_by_gui_tien</h4>
+		}
+
+	}
+	<h4>Yêu cầu văn phòng phẩm của bạn ở dưới: </h4>
+	@if (ViewBag.app_false != null)
+	{
+		<div class="alert alert-danger alert-dismissible">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Thất Bại!</strong> @ViewBag.app_false
+		</div>
+	}
+	@if (ViewBag.Error != null)
+	{
+		<div class="alert alert-danger alert-dismissible">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Thất Bại!</strong> @ViewBag.Error
+		</div>
+	}
+	@{
+		List<SelectListItem> listItems = new List<SelectListItem>();
+		listItems.Add(new SelectListItem
+		{
+			Text = "Hủy đơn hàng",
+			Value = "-2"
+		});
+		listItems.Add(new SelectListItem
+		{
+			Text = "Trưởng phòng đang xét duyệt",
+			Value = "0"
+		});
+		listItems.Add(new SelectListItem
+		{
+			Text = "Giám đốc đang xét duyệt",
+			Value = "1"
+		});
+		listItems.Add(new SelectListItem
+		{
+			Text = "Từ chối đơn hàng",
+			Value = "-1"
+		});
+		listItems.Add(new SelectListItem
+		{
+			Text = "Chưa Lấy Hàng",
+			Value = "7"
+		});
+		listItems.Add(new SelectListItem
+		{
+			Text = "Đã Nhận Hàng",
+			Value = "8"
+		});
+		listItems.Add(new SelectListItem
+		{
+			Text = "Phòng nhân sự đang lấy lại hàng",
+			Value = "9"
+		});
+		listItems.Add(new SelectListItem
+		{
+			Text = "Đã trả hàng",
+			Value = "10"
+		});
+	}
+
+	@using (Html.BeginForm("Index", "Home", FormMethod.Get))
+	{
+
+		@Html.DropDownList("Status_Check", listItems, "-- Select Status --")
+		<input type="submit" value="submit" />
+	}
+	<table class="table">
+		<tr style="background: #202020;
+        color: white">
+			<th>
+				@Html.DisplayNameFor(model => model.NhanVien.Ten)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Role.RoleName)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.VanPhongPham.productName)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Unit)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Quantity)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Purpose)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.DateAdd)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Status)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Pause)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Note)
+			</th>
+			<th></th>
+		</tr>
+
+		@foreach (var item in Model)
+		{
+			if (item.Status < 2 || (item.Status >= 7 && item.Status <= 10))
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => item.NhanVien.Ten)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Role.RoleName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.VanPhongPham.productName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Unit)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Quantity)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Purpose)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.DateAdd)
+					</td>
+					<td>
+						@if (item.Status == -2)
+						{
+							<p>Hủy đơn hàng</p>
+						}
+						else if (item.Status == 0)
+						{
+							<p>Trưởng phòng đang xét duyệt</p>
+						}
+						else if (item.Status == 1)
+						{
+							<p>Giám đốc đang xét duyệt</p>
+						}
+						else if (item.Status == -1)
+						{
+							<p>Từ chối đơn hàng</p>
+						}
+						else if (item.Status == 7)
+						{
+							<p>Chưa Lấy Hàng</p>
+						}
+						else if (item.Status == 8)
+						{
+							<p>Đã Nhận Hàng</p>
+						}
+						else if (item.Status == 9)
+						{
+							<p>Phòng nhân sự đang lấy lại hàng</p>
+						}
+						else if (item.Status == 10)
+						{
+							<p>Đã trả hàng</p>
+						}
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Pause)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Note)
+					</td>
+				</tr>
+			}
+
+		}
+
+	</table>
+</body>
